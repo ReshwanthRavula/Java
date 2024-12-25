@@ -11,7 +11,7 @@ class Calculator{
     {
         // int result = a + b;
         // System.out.println("addition of two numbers is:");
-        return a*2 + b*3;
+        return a*2 + b*3; ////dbwbjcjebeb
     }
 }
 
