@@ -1,0 +1,8 @@
+
+camel casing
+
+classs and interface - Calc, Runable 
+
+variable and method - marks, show showMyMarks()
+
+constants - PIE, BRAND 
