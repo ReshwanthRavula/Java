@@ -11,7 +11,7 @@ public class Caluclator {
         int d = B.division(15,3); // method from different class AdvanceCalc
 
         System.out.printf("Add: %d, Sub: %d, Mul: %d, Div: %d%n", a, b, c, d);
-        /// Reshwanth Ravula 
+        /// Reshwanth Ravula thinava  
     }
     
 }
