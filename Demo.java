@@ -9,7 +9,7 @@ public class Demo {
 
         double x = 8.9;
 
-        double y = 9.9;//// risheek 
+        double y = 9.9;//// risheek ravula 
 
         boolean b = result == num || x == y || x > 1;
 
