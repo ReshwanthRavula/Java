@@ -1,5 +1,5 @@
 public class starPrint {
-    public static void main(String1[] args) {
+    public static void main(String[] args) {
 
         int rows = 4;
         for (int i = 1; i <= rows; i++) {

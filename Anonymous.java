@@ -13,5 +13,6 @@ public class Anonymous {
     public static void main(String[] args) {
         new A(); // anonymous object
         new A().show();
+        
     }
 }
