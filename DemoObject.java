@@ -16,7 +16,7 @@ class Calculator{
 }
 
 public class DemoObject {
-    public static void main(String1[] args) {
+    public static void main(String[] args) {
         Calculator calc = new Calculator();
 
         // calc.add();
