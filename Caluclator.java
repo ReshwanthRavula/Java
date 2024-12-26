@@ -1,5 +1,6 @@
-package Inheritance;
 
+
+import Inheritance.*; // * implies files in the folder not the folder 
 
 public class Caluclator {
     public static void main(String[] args) {
