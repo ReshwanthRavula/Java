@@ -13,7 +13,7 @@ public class Caluclator {
 
         System.out.println(a + " " + b + " " + c + " " + d + " " + e);
 
-        /// Reshwanth Ravula thinava  
+        /// Reshwanth Ravula 
     }
     
 }
