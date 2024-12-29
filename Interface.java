@@ -2,36 +2,38 @@
 // class - interface ---> implements
 // interface - interface ---> extends 
 
-
 interface A {
     int age = 44;
     String area = "mumbai";
 
     public void show();
+
     public void config();
 
-    
 }
-interface X{
+
+interface X extends A {
     void run();
 }
 
-interface Y extends X{
+interface Y extends X {
 
 }
-class B implements A,Y{
 
-    public void show(){
+class B implements A, Y {
+
+    public void show() {
         System.out.println("in show");
 
     }
-    public void config(){
+
+    public void config() {
         System.out.println("in config");
     }
-    public void run(){
+
+    public void run() {
         System.out.println("in run");
     }
-
 
 }
 
@@ -47,7 +49,12 @@ public class Interface {
         obj1 = new B();
         obj1.run();
 
+        Y obj2;
+        obj2 = new B();
+        obj2.show();
+        obj2.run();
+
         System.out.println(A.area + A.age);
     }
-    
+
 }
